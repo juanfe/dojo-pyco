@@ -1,0 +1,51 @@
+1-) Si usted reemplaza en la siguiente línea la ? por algo que tenga validez en python:
+
+$ python -c "?"
+
+¿Qué hace esa línea? Si no lo sabe lea [1]
+
+2-) Si lo sabe, haga el reemplazo por algo que escriba la frase: "Hola mundo"
+
+3-) ¿Qué hace lo siguiente?
+
+$ python t.py - < t.txt
+
+Si no lo sabe, lea [1]. Si lo sabe siga a la siguiente pregunta.
+
+4-) Haga un programa de no más de tres líneas llamado t.py, y un archivo t.txt, que cumpla lo anterior sin generar un error.
+
+5-) Si usted usa un sistema operacional para personas inteligente, o sea cualquier Unix like, haga un programa que imprima "Hola ser inteligente, te saludamos desde Flying Circus!", y que se ejecute de la siguiente forma:
+
+$ ./p.py
+
+6-) Como sabemos que ya leyó [1], conteste: ¿A partir de qué versión de python ud puede escribir un programa que imprima caracteres chinos?
+
+7-) Escriba un programa de no más de tres líneas que imprima un carácter en japones, chino, o cualquier idioma que no sea con caracteres latinos.
+
+8-) Configure su sistema para que cada vez que ingrese a python, le aparezca el siguiente mensaje:
+
+Python 2.7.3rc2 (default, Apr 22 2012, 22:30:17) 
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+**********************************************************************
+********** HOLA SER INTELIGENTE DEL PLANETA DOJO COLOMBIA ************
+**********       TE SALUDAMOS DESDE EL FLYING CIRCUS      ************
+**********************************************************************
+>>>
+ 
+9-) Configure su sistema para que cada vez que ingrese a python, le aparezca el mensaje:
+
+**********************************************************************
+********** HOLA SER INTELIGENTE DEL PLANETA DOJO COLOMBIA ************
+**********       TE SALUDAMOS DESDE EL FLYING CIRCUS      ************
+**********************************************************************
+Python 2.7.3rc2 (default, Apr 22 2012, 22:30:17) 
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+Si llega a este punto, felicitaciones, puede continuar leyendo [2], y asistir a la siguiente sesión de práctica para el Dojo de Python Colombia. Cualquier comentario primero recuerde: "Wenn ist das nunstück geht und slotermeyer ja ba yerhund oder die flipperwaldt gespuhrt"
+
+[1] http://docs.python.org/tutorial/interpreter.html
+
+[2] http://docs.python.org/tutorial/introduction.html 
