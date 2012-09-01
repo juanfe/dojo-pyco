@@ -14,7 +14,7 @@ Si no lo sabe, lea [1]. Si lo sabe siga a la siguiente pregunta.
 
 4-) Haga un programa de no más de tres líneas llamado t.py, y un archivo t.txt, que cumpla lo anterior sin generar un error.
 
-5-) Si usted usa un sistema operacional para personas inteligente, o sea cualquier Unix like, haga un programa que imprima "Hola ser inteligente, te saludamos desde Flying Circus!", y que se ejecute de la siguiente forma:
+5-) Si usted usa un sistema operacional Unix like, haga un programa que imprima "Hola ser inteligente, te saludamos desde Flying Circus!", y que se ejecute de la siguiente forma:
 
 $ ./p.py
 
