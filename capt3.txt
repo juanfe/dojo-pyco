@@ -1,0 +1,139 @@
+Para las siguientes preguntas pueden usar como soporte el tutorial de pytho, el capítulo de una introducción informal [1]. En lo posible trate de resolver los problemas sin usar el interprete de Python.
+
+1) Evalúe mentalmente las siguiente expresiones:
+
+>>> 50/10 - 5
+
+>>> 50/(10 - 5)
+
+Ahora hágalo en Python, o en iPython.
+
+2) Diga qué expresiones de las siguientes son válidas en Python, y luego evaluélas en un interprete:
+
+>>> x
+
+>>> x = y = 3
+
+>>> y = (x = 3)
+
+>>> 3,1 + 1
+
+>>> (3,1) + 1
+
+>>> 3.1 + 2
+
+>>> (3.1) + 2
+
+3) Suponga que el siguiente código se encuentra en un archivo t.py:
+
+3+4
+x = _+1
+print x
+
+¿Cuál es la diferencia al ejecutarlo desde la consola y al ejecutarlo llamándolo desde la línea de comandos como un programa  como '$ Python t.py'?
+
+4)¿Cual es la diferencia al ejecutar los siguientes dos códigos:
+
+>>> a = """hola\n
+>>> mundo"""
+>>> print a
+
+y
+
+>>> a = "hola\n
+>>> mundo"
+>>> print a
+
+5) Cual de las dos expresiones tiene sentido en Python, y cual es su resultado al ejecutarla:
+
+>>> '5' * 4
+
+>>> '5' + 4
+
+6) Considerando qué:
+
+>>> a = 'Hola'
+
+Cuál de las siguientes expresiones tiene sentido en Python?
+
+>>> 'Hola' ' mundo'
+
+>>> 'Hola' + ' mundo'
+
+>>> a ' mundo'
+
+>>> a + ' mundo'
+
+>>> a.strip() ' mundo'
+
+>>> a.strip() + ' mundo'
+
+>>> a[0:] ' mundo'
+
+7) En una línea cambien la variable a:
+
+>>> a = "hola mundo"
+
+Para que contenga la cadena "Hola Mundo".
+
+8) Considerando:
+
+>>> a = 'Hola'
+
+¿Cual de las dos expresiones tiene sentido?
+
+>>> a[4]
+
+>>> a[-4]
+
+9) ¿Qué caracteres son:?
+
+>>> u'Hello\u0020World'[5]
+
+y
+
+>>> u'Hello\\u0020World0[5]
+
+10) ¿Cuáles expresiones tienen sentido o no, y qué resultan, de las siguientes?
+
+>>> u"á".str()
+
+>>> u"a".str()
+
+11) Extraiga los valores los valores unicode utf-8 de las vocales con tilde, usando el método encode de unicode.
+
+12) Convierta la cadena de las 5 vocales anteriores a unicode utf-8, usando la función unicode.
+
+13) Considerando:
+
+>>> a = [1,2,3]
+
+En qué se diferencian las siguientes dos expresiones:
+
+>>> b = a[:]
+>>> b[2] = a[2] + 1
+
+y
+
+>>> b = a
+>>> b[2] = a[2] + 1
+
+14) Si
+
+>>> a = [1,2,3]
+
+En una sola línea haga una instrucción de tal forma que se reemplace el elemento intermedio (2) de 'a' por el valor anterior de 'a', y que en 'b' quede el valor anterior de 'a'.
+
+15) Sin ejecutar en el interprete de Python, trate de determinar qué hace el siguiente código:
+
+>>> a = "odnum aloh"
+>>> while a:
+...    print a[-1],
+...    a = a[:-1]
+...
+
+Si llegó a este punto, puede pasar a [2], y nos veremos la próxima semana.
+
+[1] http://docs.Python.org/tutorial/introduction.html
+
+[2] http://docs.python.org/tutorial/controlflow.html
