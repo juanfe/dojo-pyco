@@ -1,0 +1,5 @@
+1) Sin usar python diga qué salida produce el siguiente código:
+>>> for i in "hola mundo":
+...    print i
+
+
