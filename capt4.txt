@@ -53,4 +53,29 @@ Ejecutelo en una consola interactiva de python.
 
 10) Haga una función que retorne la lista de los números primos.
 
-11) 
+11) Cuando se define una función con parámetros por defecto, y se el asigna un valor usando una variable inmutable o sea que no sea ni lista, dict, ni clase, que luego es modificada, qué valor usa la función en el momento de ser llamada, el valor original de la variable, o el valor actual de la variable?
+
+12) Que pasa si se usa una lista, dict o clase, y luego se modifica en la pregunta anterior?
+
+13) Si definimos una función como sigue:
+
+def f(x, y=2, w=4, z=3):
+.
+.
+.
+
+Diga cuales de las siguientes llamadas a la función son válidas e inválidas:
+
+>>> f()
+>>> f(3)
+>>> f(3, x=3)
+>>> f(3, y=4)
+>>> f(y=4)
+>>> f(Y=4)
+>>> f(x=3, y=4)
+
+14) Haga una función definida por usted llamada myrange, que reciba la lista de los parametros, y devuelva la lista de los mismos, ejemplo, si quiero que genere lo mismo que range(2,5), se deba llamar myrange(2,3,4).
+
+15) Haga una función myrange, que se pueda llamar con los parámetros: ini, fin, step, y los reciba en cualquier orden, y haga lo mismo que range. Si no se da ini, se supondrá que es 0, y si no se da step, se supondrá que es 1. La única diferencia es que puede recibir números reales.
+
+
