@@ -1,5 +1,56 @@
+Para resolver estos problemas siga la guía del tutorial de pyhthon: http://docs.python.org/tutorial/controlflow.html
+
 1) Sin usar python diga qué salida produce el siguiente código:
 >>> for i in "hola mundo":
 ...    print i
 
+2) Genere un código mínimo que genera las siguiente salida:
 
+[0, 1, 2, 3, 4]
+[2, 4, 6, 8]
+
+3) De cuantas posibles formas puede hacer un códigó de un solo comando que imprima lo siguiente en el modo interactivo de python:
+
+[10, 7, 4, 1]
+
+4) Sin usar el modo interactivo, diga que imprime el siguiente código:
+
+for n in range(2, 1000):
+    for x in range(2, n):
+        if n % x == 0:
+            break
+    else:
+        print n
+
+5) Haga un código que haga lo mismo anterior pero sin usar break.
+
+6) Haga un código que imprimar los múltiplos de un número k.
+
+7) Teniendo en cuenta el siguiente código:
+
+>>> a = 5
+>>> def b():
+...     a = 15
+...     return a
+
+Diga que imprime el siguiente código:
+
+>>> print b()
+>>> print a
+
+8) Que haría la siguiente código:
+
+>>> a = 5
+>>> def b():
+...     a = a + 10
+...     return a
+...
+>>> print b()
+
+Ejecutelo en una consola interactiva de python.
+
+9) Qué línea hace falta dentro de la función b para que no pase lo anterior?
+
+10) Haga una función que retorne la lista de los números primos.
+
+11) 
