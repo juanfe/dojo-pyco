@@ -1,0 +1,15 @@
+1) Sobre la lista [4, 8, 2, 5, 6] realize las siguientes operaciones:
+
+    a) Agrege, el elemento 6.
+
+    b) Agrege la lista [8, 9, 2, 7]
+
+    c) Remueva el primer elemento 8.
+
+    d) Remueva el segundo elemento 2.
+
+    e) Extraiga el elemento de la posición 3.
+    
+    f) Cuantos elementos tiene ahora la lista?
+
+    g) Ordenela en orden mayor a menor.
