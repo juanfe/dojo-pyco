@@ -13,3 +13,12 @@
     f) Cuantos elementos tiene ahora la lista?
 
     g) Ordenela en orden mayor a menor.
+
+2) Use la lista [4, 8, 2, 5, 6], e implementela como un stack "lifo",
+adicionando los elementos, 8 y 9, y retirando cuatro elementos uno a uno, qué 
+queda?
+
+3) Porqué es ineficiente implementar un queue con una lista? En su lugar qué
+se suele usar? Use los elementos [4, 8, 2, 5, 6] para crear un queue, despues de insertar 8 y 9, y retirar 4 elementos qué queda?
+
+
