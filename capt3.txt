@@ -92,7 +92,7 @@ Para que contenga la cadena "Hola Mundo".
 
 y
 
->>> u'Hello\\u0020World0[5]
+>>> u'Hello\\u0020World'[5]
 
 10) ¿Cuáles expresiones tienen sentido o no, y qué resultan, de las siguientes?
 
@@ -100,7 +100,7 @@ y
 
 >>> u"a".str()
 
-11) Extraiga los valores los valores unicode utf-8 de las vocales con tilde, usando el método encode de unicode.
+11) Extraiga los valores unicode utf-8 de las vocales con tilde, usando el método encode de unicode.
 
 12) Convierta la cadena de las 5 vocales anteriores a unicode utf-8, usando la función unicode.
 
@@ -126,7 +126,7 @@ En una sola línea haga una instrucción de tal forma que se reemplace el elemen
 
 15) Sin ejecutar en el interprete de Python, trate de determinar qué hace el siguiente código:
 
->>> a = "odnum aloh"
+>>> a = "ama oso"
 >>> while a:
 ...    print a[-1],
 ...    a = a[:-1]
